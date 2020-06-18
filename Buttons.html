@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Icons References -->
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+
+<!-- Header Style -->
+h1 {
+margin-top:50px;
+text-align:center;
+font-size:60px;
+}
+
+<!-- Button classes -->
+button.Up{
+background-color:white;
+border:none;
+font-size:100px;
+color:gray;
+
+}
+
+.left{
+background-color:white;
+border:none;
+font-size:100px;
+text-align:left-side;
+color:gray;
+
+}
+
+.down{
+background-color:white;
+border:none;
+font-size:100px;
+text-align:left-side;
+color:gray;
+
+}
+
+.right{
+background-color:white;
+border:none;
+font-size:100px;
+text-align:left-side;
+color:gray;
+}
+
+.X{
+background-color:white;
+border:none;
+font-size:100px;
+text-align:left-side;
+color:dodgerblue;
+}
+
+.square{
+background-color:white;
+border:none;
+font-size:100px;
+text-align:left-side;
+color:deeppink;
+}
+
+.circle{
+background-color:white;
+border:none;
+font-size:100px;
+text-align:left-side;
+color:red;
+}
+
+.triangle{
+background-color:white;
+border:none;
+font-size:120px;
+border:red;
+color:lime;
+}
+
+<!-- Layout Grid -->
+.grid-container {
+  display: grid;
+  grid-column-gap:0px;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  margin:100px 50px 50px 50px;
+  border:1px solid black;
+ 
+
+}
+
+.grid-container > div {
+  background-color: none;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  border:none;
+  border:none;
+
+}
+
+<!-- Set Buttons Position -->
+.u{
+grid-column-start:1;
+grid-column-end:3;
+grid-row-start:1;
+grid-row-end:2;
+}
+
+.l{
+grid-column-start:1;
+grid-column-end:2;
+grid-row-start:2;
+grid-row-end:3;
+}
+
+.r{
+grid-column-start:2;
+grid-column-end:3;
+grid-row-start:2;
+grid-row-end:3;
+}
+.d{
+grid-column-start:1;
+grid-column-end:3;
+grid-row-start:3;
+grid-row-end:4;
+
+}
+
+.tri{
+grid-column-start:3;
+grid-column-end:5;
+grid-row-start:1;
+grid-row-end:2;
+
+}
+
+.sqr{
+grid-column-start:3;
+grid-column-end:4;
+grid-row-start:2;
+grid-row-end:3;
+}
+
+.o{
+grid-column-start:4;
+grid-column-end:5;
+grid-row-start:2;
+grid-row-end:3;
+}
+
+.x{
+grid-column-start:3;
+grid-column-end:5;
+grid-row-start:3;
+grid-row-end:4;
+}
+
+
+</style>
+</head>
+<body>
+
+
+  <h1>Robot Control Panel</h1>
+<div class="grid-container">
+  <div class="u"><button  class="fas Up">&#xf35b; </button></div>
+  <div class="l"><button  class="fas left">&#xf359; </button></div>
+  <div class="r"><button  class="fas right">&#xf35a; </button></div>
+  <div class="d"><button  class="fas down">&#xf358;</button></div>
+  <div class="x"><button  class="fas X">&#xf00d;</button></div>
+  <div class="tri"><button  class="glyphicon triangle">&#xe253;</button></div> 
+  <div class="sqr"><button  class="fas square">&#xf0c8;</button></div> 
+  <div class="o"><button  class="fas circle">&#xf111;</button></div>   
+
+</div>
+
+
+</body>
+</html>
